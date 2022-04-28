@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FlightGame</string>
+    <string name="banner">I Have To Fly!</string>
+    <string name="play">Play</string>
+    <string name="high_score">High Score:</string>
+    <string name="game_level">Level:</string>
+    <string name="volume_up">Volume Up</string>
+    <string name="volume_off">Volume Off</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

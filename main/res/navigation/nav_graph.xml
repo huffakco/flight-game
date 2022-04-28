@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainViewFragment">
+
+    <fragment
+        android:id="@+id/mainViewFragment"
+        android:name="com.example.flightgame.MainViewFragment"
+        android:label="fragment_main_view"
+        tools:layout="@layout/fragment_main_view" >
+        <action
+            android:id="@+id/action_mainViewFragment_to_gameViewFragment"
+            app:destination="@id/gameViewFragment" />
+        <argument
+            android:name="score"
+            app:argType="integer"
+            android:defaultValue="0" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/gameViewFragment"
+        android:name="com.example.flightgame.GameViewFragment"
+        android:label="fragment_game_view"
+        tools:layout="@layout/fragment_game_view" >
+        <action
+            android:id="@+id/action_gameViewFragment_to_mainViewFragment"
+            app:destination="@id/mainViewFragment" />
+<!--        <argument-->
+<!--            android:name="scrnRatioX"-->
+<!--            app:argType="float"-->
+<!--            android:defaultValue="1.0" />-->
+<!--        <argument-->
+<!--            android:name="scrnRatioY"-->
+<!--            app:argType="float"-->
+<!--            android:defaultValue="1.0" />-->
+<!--        <argument-->
+<!--            android:name="screenWidth"-->
+<!--            app:argType="integer" />-->
+<!--        <argument-->
+<!--            android:name="screenHeight"-->
+<!--            app:argType="integer"-->
+<!--            android:defaultValue="1" />-->
+        <argument
+            android:name="isMute"
+            app:argType="boolean"
+            android:defaultValue="false" />
+        <argument
+            android:name="gameLevel"
+            app:argType="integer"
+            android:defaultValue="1" />
+    </fragment>
+
+</navigation>
