@@ -8,7 +8,6 @@ Reference: https://www.tutorialkart.com/kotlin-android/get-started-with-android-
 
 Reference: https://www.youtube.com/watch?v=aTT4GfojkHA
 
-Reference: https://github.com/heyletscode/2D-Game-In-Android-Studio
 
 ![Alt text](Screenshot_20220428-105726_FlightGame.jpg?raw=true "Screen shot main screen")
 
